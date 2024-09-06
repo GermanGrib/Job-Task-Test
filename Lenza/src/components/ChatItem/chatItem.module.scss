@@ -1,0 +1,45 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 15px;
+  cursor: pointer;
+  transition: background-color var(--transition-set);
+  &.newMessages {
+    background-color: #407EC914;;
+  }
+  &:hover {
+    background-color: #201F1E0A;
+  }
+}
+
+.chatInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nameTimeWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userName {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time {
+  color: var(--gray-normal-color);
+}
+
+.messageText {
+  width: 264px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--gray-normal-color);
+}

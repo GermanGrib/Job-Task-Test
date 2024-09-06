@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <title>My Website</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/styles/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-background">
+        <div class="control-unit">
+          <img
+            alt="burger icon"
+            class="control-unit__icon"
+            src="./assets/imgs/svgs/burger.svg"
+          />
+          <img
+            alt="search icon"
+            class="control-unit__icon"
+            src="./assets/imgs/svgs/searchWhite.svg"
+          />
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Credits</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Exchange</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Partners</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link_active" href="#">Stock</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">Holding</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+          </ul>
+          <h2 class="nav__title">ParrotWings Exchange</h2>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main-content-wrapper">
+          <div class="main-content-first-section">
+            <div class="main-title-wrapper">
+              <h1 class="main-title">ParrotWings Exchange</h1>
+              <label class="products-search-label">
+                <input
+                  class="input products-search-input"
+                  placeholder="Search..."
+                  type="search"
+                />
+              </label>
+            </div>
+            <div>
+              <h2 class="products-title">Products</h2>
+              <div class="product-cards-wrapper">
+                <ul class="products-list">
+                  <li class="product-card">
+                    <img
+                      alt="product img"
+                      class="product-card__img"
+                      src="./assets/imgs/products/1.jpg"
+                    />
+                    <span class="product-card__subtitle">2 props</span>
+                    <span class="product-card__title">Unlimited exchange</span>
+                    <button class="button button_primary">Order</button>
+                  </li>
+                  <li class="product-card">
+                    <img
+                      alt="product img"
+                      class="product-card__img"
+                      src="./assets/imgs/products/2.jpg"
+                    /><span class="product-card__subtitle">1 prop</span
+                    ><span class="product-card__title"
+                      >International exchange</span
+                    >
+                    <button class="button button_primary">Order</button>
+                  </li>
+                  <li class="product-card">
+                    <img
+                      alt="product img"
+                      class="product-card__img"
+                      src="./assets/imgs/products/3.jpg"
+                    /><span class="product-card__subtitle">3 props, all</span
+                    ><span class="product-card__title"
+                      >Additional services</span
+                    >
+                    <button class="button button_primary">Order</button>
+                  </li>
+                  <li class="product-card">
+                    <img
+                      alt="product img"
+                      class="product-card__img"
+                      src="./assets/imgs/products/4.jpg"
+                    /><span class="product-card__subtitle">5 props</span
+                    ><span class="product-card__title">Support</span>
+                    <button class="button button_primary">Order</button>
+                  </li>
+                  <li class="product-card">
+                    <img
+                      alt="product img"
+                      class="product-card__img"
+                      src="./assets/imgs/products/5.jpg"
+                    /><span class="product-card__subtitle">2 props</span
+                    ><span class="product-card__title">Holiday works</span>
+                    <button class="button button_primary">Order</button>
+                    <div class="popup">
+                      <h4 class="popup__header">Popup header</h4>
+                      <span class="popup__text"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="product-card">
+                    <img
+                      alt="product img"
+                      class="product-card__img"
+                      src="./assets/imgs/products/6.jpg"
+                    /><span class="product-card__subtitle">not in access</span
+                    ><span class="product-card__title">Postal delivery</span>
+                    <button class="button button_primary">Order</button>
+                  </li>
+                  <li class="product-card">
+                    <img
+                      alt="product img"
+                      class="product-card__img"
+                      src="./assets/imgs/products/7.jpg"
+                    /><span class="product-card__subtitle">2 props</span
+                    ><span class="product-card__title">Document managers</span>
+                    <button class="button button_primary">Order</button>
+                  </li>
+                  <li class="product-card">
+                    <img
+                      alt="product img"
+                      class="product-card__img"
+                      src="./assets/imgs/products/8.jpg"
+                    /><span class="product-card__subtitle">1 prop</span
+                    ><span class="product-card__title">Promotions</span>
+                    <button class="button button_primary">Order</button>
+                  </li>
+                </ul>
+                <div class="more-products-btn">More products...</div>
+              </div>
+            </div>
+          </div>
+          <div class="main-content-second-section">
+            <div class="form-wrapper sign-up-form-wrapper">
+              <div class="form-title">Sign Up</div>
+              <form action="#" class="form">
+                <div class="inputs-wrapper">
+                  <label class="form__label">
+                    <input
+                      class="input form__input"
+                      placeholder="First Name"
+                      type="text"
+                    />
+                  </label>
+                  <label class="form__label">
+                    <input
+                      class="input form__input"
+                      placeholder="Last Name"
+                      type="text"
+                    />
+                  </label>
+                  <label class="form__label">
+                    <input
+                      class="input form__input"
+                      placeholder="Email"
+                      type="text"
+                    />
+                  </label>
+                </div>
+
+                <div class="form__description">
+                  By creating a PW Exchange Account you acknowledge that you
+                  have read, understood and agree to the
+                  <a class="form__privacy-link" href="#"
+                    >Terms of Use and Privacy Policy.</a
+                  >
+                </div>
+                <button
+                  class="button button_secondary form__button"
+                  type="submit"
+                >
+                  Sign up
+                </button>
+              </form>
+            </div>
+            <div class="form-wrapper form-downloading">
+              <div class="form-downloading-wrapper">
+                <div class="form-title">Online Monitor</div>
+                <button class="button button_secondary form__button">
+                  Connect
+                </button>
+              </div>
+              <div class="loader">
+                <img
+                  alt="loader"
+                  class="loader__image"
+                  src="./assets/imgs/svgs/loader.svg"
+                />
+                <div class="loader__text">Loading...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content-wrapper">
+          <div class="footer-first-section-wrapper">
+            <ul class="social-platform-list">
+              <li>
+                <a href="#"
+                  ><img
+                    alt="elephant"
+                    class="social-platform-list__image"
+                    src="./assets/imgs/communicationChannels/elephant.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    alt="facebook"
+                    class="social-platform-list__image"
+                    src="./assets/imgs/communicationChannels/Facebook.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    alt="pinterest"
+                    class="social-platform-list__image"
+                    src="./assets/imgs/communicationChannels/Pinterest.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    alt="twitter"
+                    class="social-platform-list__image"
+                    src="./assets/imgs/communicationChannels/twitter.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    alt="youtube"
+                    class="social-platform-list__image"
+                    src="./assets/imgs/communicationChannels/youtube.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    alt="github"
+                    class="social-platform-list__image"
+                    src="./assets/imgs/communicationChannels/Github.svg"
+                /></a>
+              </li>
+            </ul>
+            <div>
+              <a class="logo" href="#">
+                <div>© Parrot Wings</div>
+              </a>
+            </div>
+          </div>
+          <div class="footer-second-section-wrapper">
+            <div class="footer-lists">
+              <div class="footer-list-wrapper">
+                <h3 class="footer-list-title">Recruitment Info</h3>
+                <ul class="footer-list">
+                  <li>
+                    <a class="footer-list__link" href="#"
+                      >Candidate First Name: Username</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-list__link" href="#"
+                      >Candidate Last Name: Username</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-list__link" href="#"
+                      >Spent Time: X hours</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-list__link" href="#"
+                      >Email: username@server.name</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-list__link" href="#"
+                      >Test date: dd.mm.yyyy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-list-wrapper">
+                <h3 class="footer-list-title">Resources</h3>
+                <ul class="footer-list">
+                  <li>
+                    <a class="footer-list__link" href="#"
+                      >Loader icon - search on Fontello.com</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-list__link" href="#">Icons - Entypo</a>
+                  </li>
+                  <li>
+                    <a class="footer-list__link" href="#"
+                      >Fonts - search in this file</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-list__link" href="#"
+                      >Background - standard situation: designer lose file</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-list-wrapper">
+                <h3 class="footer-list-title">Navigation</h3>
+                <ul class="footer-list">
+                  <li><a class="footer-list__link" href="#">Development</a></li>
+                  <li><a class="footer-list__link" href="#">Application</a></li>
+                  <li><a class="footer-list__link" href="#">Holding</a></li>
+                  <li><a class="footer-list__link" href="#">About</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="browsers-wrapper">
+              <ul class="browsers-list">
+                <li>
+                  <a class="browsers-list__link" href="#">
+                    <img
+                      alt="firefox icon"
+                      class="browsers-list__image"
+                      src="./assets/imgs/browsers/firefox.png"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a class="browsers-list__link" href="#">
+                    <img
+                      alt="chrome icon"
+                      class="browsers-list__image"
+                      src="./assets/imgs/browsers/Chrome.png"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a class="browsers-list__link" href="#">
+                    <img
+                      alt="IExplorer icon"
+                      class="browsers-list__image"
+                      src="./assets/imgs/browsers/IExplorer.png"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a class="browsers-list__link" href="#">
+                    <img
+                      alt="Safari icon"
+                      class="browsers-list__image"
+                      src="./assets/imgs/browsers/Safari.png"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a class="browsers-list__link" href="#">
+                    <img
+                      alt="Opera icon"
+                      class="browsers-list__image"
+                      src="./assets/imgs/browsers/Opera.png"
+                    />
+                  </a>
+                </li>
+              </ul>
+              <div class="footer-note">
+                Project should work on next stack: IE11, actual version of
+                Firefox, Chrome on desktop and android, Opera (opera mini),
+                Safari on mac and ios.
+              </div>
+            </div>
+            <div>
+              <a class="logo-mobile" href="#">
+                <div>© Parrot Wings</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

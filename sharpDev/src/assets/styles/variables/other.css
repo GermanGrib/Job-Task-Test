@@ -1,0 +1,11 @@
+:root {
+  --header-height: 155px;
+  --header-mobile-height: 109px;
+  
+  --border-radius-xs: 2px;
+  --border-radius-s: 5px;
+  --border-radius-m: 8px;
+  
+  --duration-set: .2s ease-in-out;
+  
+}

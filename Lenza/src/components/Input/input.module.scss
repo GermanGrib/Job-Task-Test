@@ -1,0 +1,44 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 24px;
+}
+
+.input {
+  position: relative;
+  max-width: 996px;
+  padding: 10px 18px;
+  height: auto;
+  max-height: 3em;
+  overflow-y: auto;
+  border: 1px solid var(--border-gray-color);
+  border-radius: var(--radius-sm);
+  line-height: 1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.placeholder {
+  color: #A19F9D;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clipWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #201F1E0A;
+  cursor: pointer;
+}
+
+.sendBtn {
+  cursor: pointer;
+}

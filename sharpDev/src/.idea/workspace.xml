@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce3d4426-975f-496e-b46c-355a5c6921ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../yandex-team/src/assets/imgs/chess-game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../yandex-team/src/assets/imgs/chess-player.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lenza/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lenza/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pryaniky/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../pryaniky/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pryaniky/src/types/enums/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../pryaniky/src/types/enums/global.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imgs/products/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imgs/products/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yandex-team/src/assets/imgs/home-main-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../yandex-team/src/assets/imgs/home-main-background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yandex-team/src/assets/styles/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../yandex-team/src/assets/styles/components/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yandex-team/src/assets/styles/components/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../yandex-team/src/assets/styles/components/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yandex-team/src/assets/styles/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../yandex-team/src/assets/styles/variables/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yandex-team/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../yandex-team/src/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2leCOrX64BpCtFNFJisFltKEfOP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/germangrib/Job/Tests myGit/Tests-Task/sharpDev/src",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce3d4426-975f-496e-b46c-355a5c6921ed" name="Changes" comment="" />
+      <created>1725531125782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725531125782</updated>
+      <workItem from="1725531126934" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

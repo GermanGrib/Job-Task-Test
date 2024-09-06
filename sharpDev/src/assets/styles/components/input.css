@@ -1,0 +1,13 @@
+.input {
+  outline: none;
+  border: 1px solid var(--gray-primary-color);
+  background-color: #EFEFEF;
+}
+
+.input::placeholder {
+  color: var(--gray-transparent-color);
+}
+
+.input:focus {
+  border-color: var(--black-normal-color);
+}

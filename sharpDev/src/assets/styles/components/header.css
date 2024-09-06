@@ -1,0 +1,105 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background-color: var(--primary-background-sections-color);
+  height: var(--header-height);
+  z-index: 10;
+  @media (max-width: 750px) {
+    height: var(--header-mobile-height);
+  }
+}
+
+.header-background {
+  display: flex;
+  align-items: end;
+  background-image: url("../../imgs/headerBackground.jpg");
+  background-position: center;
+  
+  @media (max-width: 750px) {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.control-unit {
+  display: none;
+  
+  @media (max-width: 750px) {
+    display: flex;
+    padding-top: 18px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.control-unit__icon:first-child {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.control-unit__icon:last-child {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #060606CC;
+}
+
+.nav__title {
+  display: none;
+  
+  @media (max-width: 750px) {
+    display: flex;
+    color: var(--white-normal-color);
+    font-weight: 300;
+    font-size: 28px;
+    font-family: "Oswald", sans-serif;
+    line-height: 41px;
+    text-align: center;
+  }
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  @media (max-width: 750px) {
+    display: none;
+  }
+}
+
+.nav__item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav__link {
+  display: flex;
+  padding-bottom: 3px;
+  justify-content: center;
+  color: var(--white-normal-color);
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+  border-bottom: 4px solid #060606CC;
+  transition: background-color var(--duration-set);
+}
+
+.nav__link:hover {
+  border-bottom: 4px solid var(--white-normal-color);
+  opacity: .5;
+}
+
+.nav__link_active {
+  background-color: var(--gray-normal-color);
+  border-bottom: 4px solid var(--green-normal-color);
+  color: var(--black-normal-color);
+}

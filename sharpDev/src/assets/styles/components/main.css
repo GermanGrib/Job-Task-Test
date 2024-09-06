@@ -1,0 +1,247 @@
+.main-content-wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 40px 45px;
+  background-color: var(--gray-light-color);
+  
+  @media (max-width: 750px) {
+    padding: 0;
+    padding-top: 70px;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
+.main-content-first-section {
+  flex: 0 1 68%;
+}
+
+.main-content-second-section {
+  flex: 0 1 32%;
+}
+
+.main-title-wrapper {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  
+  @media (max-width: 750px) {
+    display: none;
+  }
+}
+
+.main-title {
+  white-space: nowrap;
+  font-size: 34px;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+  line-height: 50px;
+}
+
+.products-title {
+  position: relative;
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 38px;
+  font-family: "Oswald", sans-serif;
+  
+  @media (max-width: 750px) {
+    display: none ;
+  }
+}
+
+.products-title:before {
+  content: '';
+  position: absolute;
+  width: 19px;
+  height: 8px;
+  top: 44%;
+  transform: translateX(-50%);
+  left: -14px;
+  background-color: #AA3132;
+}
+
+.products-search-label {
+  position: relative;
+  height: fit-content;
+}
+
+.products-search-label::after {
+  content: '';
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  background-image: url("../../imgs/svgs/searchGray.svg");
+}
+
+.products-search-input {
+  padding: 9px;
+}
+
+.products-search-input::placeholder {
+  font-size: 14px;
+}
+
+.product-cards-wrapper {
+  @media (max-width: 750px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  gap: 18px;
+  
+  @media (max-width: 1024px) {
+    justify-content: center;
+  }
+  
+  @media (max-width: 750px) {
+    display: grid;
+    margin-bottom: 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.product-card {
+  position: relative;
+  margin-bottom: 25px;
+  display: flex;
+  width: 127px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card__img {
+  margin-bottom: 8px;
+  width: 109px;
+  height: 154px;
+  border: 1px solid #9E9E9EB2;
+  box-shadow: 0 4px 4px 0 #00000026;
+}
+
+.product-card__subtitle {
+  max-width: 125px;
+  margin-bottom: 4px;
+  font-size: 11px;
+  line-height: 12px;
+  color: #515151;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card__title {
+  margin-bottom: 5px;
+  max-width: 125px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "Oswald", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #191919;
+  text-overflow: ellipsis;
+}
+
+.more-products-btn {
+  text-align: center;
+  color: var(--gray-dark-color);
+  text-decoration: underline;
+  cursor: pointer;
+  
+  @media (max-width: 750px) {
+    display: none;
+  }
+}
+
+.form-wrapper {
+  display: flex;
+  margin-bottom: 26px;
+  padding: 20px;
+  flex-direction: column;
+  background-color: #E3E3E3;
+  box-shadow: 0 4px 4px 0 #00000040;
+  
+  @media (max-width: 750px) {
+    margin-bottom: 0;
+  }
+}
+
+.sign-up-form-wrapper {
+  @media (max-width: 750px) {
+    display: none;
+  }
+}
+
+.form-title {
+  color: #4F4F4F;
+  margin-bottom: 13px;
+  padding-bottom: 13px;
+  font-weight: 300;
+  font-size: 28px;
+  font-family: "Oswald", sans-serif;
+  line-height: 41px;
+  border-bottom: 1px solid #C7C7C7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  display: flex;
+}
+
+.inputs-wrapper {
+  display: flex;
+  margin-bottom: 11px;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.form__input {
+  padding: 18px 14px 14px 14px;
+  flex-grow: 1;
+}
+
+.form__description {
+  font-size: 11px;
+  line-height: 12px;
+  color: var(--black-normal-color);
+  margin-bottom: 15px;
+}
+
+.form__privacy-link {
+  color: var(--black-normal-color);
+}
+
+.form__button {
+  margin-left: auto;
+  width: fit-content;
+}
+
+.form-downloading {
+  position: relative;
+}
+
+.form-downloading-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  opacity: .1;
+  user-select: none;
+  pointer-events: none;
+}

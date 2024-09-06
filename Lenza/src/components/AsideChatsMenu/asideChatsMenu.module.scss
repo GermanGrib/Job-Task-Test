@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-width: 360px;
+  box-shadow: -1px 0px 0px 0px #201F1E1F inset;
+}
+
+.loading {
+  padding-left: 15px;
+  padding-top: 12px;
+}
+
+.chatsWrapper {
+  height: 90vh;
+  overflow: scroll;
+}
+
+.header {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  height: var(--header-height);
+}
+
+.title {
+  font-size: 18px;
+}

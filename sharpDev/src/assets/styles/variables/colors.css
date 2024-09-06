@@ -1,0 +1,16 @@
+:root {
+  --primary-normal-color: #191919;
+  
+  --primary-background-sections-color: #010101;
+  
+  --white-normal-color: white;
+  --black-normal-color: black;
+  
+  --gray-primary-color: #CBCBCB;
+  --gray-normal-color: #B6B6B6;
+  --gray-light-color: #EAEAEA;
+  --gray-dark-color: #424242;
+  --gray-transparent-color: #A5A5A5;
+  
+  --green-normal-color: #00FF4F;
+}
